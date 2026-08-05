@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const data = JSON.parse(await readFile(new URL("../app/data/questions.json", import.meta.url), "utf8"));
+const queue = JSON.parse(await readFile(new URL("../app/data/daily-question-queue.json", import.meta.url), "utf8"));
 
 test("starts with six categories and at least ten questions in each", () => {
   assert.equal(data.categories.length, 6);
@@ -25,5 +26,11 @@ test("every fact names a source that exists", () => {
   const sourceIds = new Set(data.sources.map((source) => source.id));
   for (const category of data.categories) {
     for (const question of category.questions) assert.ok(sourceIds.has(question.source), question.id);
+  }
+});
+
+test("daily queue starts with a full week for every category", () => {
+  for (const category of data.categories) {
+    assert.equal(queue[category.id].length, 7, category.id);
   }
 });
