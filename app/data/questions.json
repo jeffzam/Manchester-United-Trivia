@@ -1,0 +1,127 @@
+{
+  "updatedOn": "2026-08-05",
+  "sources": [
+    { "id": "official-history", "name": "Manchester United — Club History", "url": "https://www.manutd.com/en/club/history" },
+    { "id": "official-decades", "name": "Manchester United — History by Decade", "url": "https://www.manutd.com/en/club/history/history-by-decade" },
+    { "id": "official-trophies", "name": "Manchester United — Trophy Room", "url": "https://www.manutd.com/en/club/history/trophy-room" },
+    { "id": "official-corporate", "name": "Manchester United — Our History", "url": "https://ir.manutd.com/company-information/history.aspx" },
+    { "id": "official-records", "name": "Manchester United — Player Records", "url": "https://www.manutd.com/en/news/detail/david-de-gea-poised-for-goalkeeper-appearance-record" },
+    { "id": "fan-history", "name": "United History — Club Timeline", "url": "https://www.unitedhistory.co.uk/manchester-united-club-history-timeline.html" }
+  ],
+  "categories": [
+    {
+      "id": "players",
+      "name": "Players & Legends",
+      "shortName": "LEGENDS",
+      "icon": "★",
+      "color": "#ed1b2f",
+      "questions": [
+        { "id": "p01", "question": "Who is Manchester United's all-time leading goalscorer?", "answers": ["Sir Bobby Charlton", "Wayne Rooney", "Denis Law", "Ryan Giggs"], "correct": 1, "fact": "Wayne Rooney finished his United career with a club-record 253 goals.", "source": "official-records" },
+        { "id": "p02", "question": "Who holds the record for the most Manchester United appearances?", "answers": ["Paul Scholes", "Sir Bobby Charlton", "Ryan Giggs", "Gary Neville"], "correct": 2, "fact": "Ryan Giggs made 963 competitive appearances for United.", "source": "official-records" },
+        { "id": "p03", "question": "Which three players are celebrated by the United Trinity statue?", "answers": ["Best, Law and Charlton", "Rooney, Ronaldo and Giggs", "Keane, Scholes and Beckham", "Robson, Hughes and Cantona"], "correct": 0, "fact": "George Best, Denis Law and Sir Bobby Charlton all won the Ballon d'Or while at United.", "source": "official-history" },
+        { "id": "p04", "question": "Who was United's club captain during the 1998/99 Treble season?", "answers": ["Peter Schmeichel", "Roy Keane", "Gary Neville", "David Beckham"], "correct": 1, "fact": "Roy Keane captained the Treble-winning squad, although he was suspended for the Champions League final.", "source": "official-decades" },
+        { "id": "p05", "question": "Which famous shirt number did Eric Cantona wear for United?", "answers": ["5", "7", "9", "11"], "correct": 1, "fact": "Cantona became one of the club's most iconic number 7s.", "source": "official-decades" },
+        { "id": "p06", "question": "Which midfielder spent his entire senior playing career at Manchester United?", "answers": ["Paul Scholes", "Roy Keane", "Michael Carrick", "Juan Mata"], "correct": 0, "fact": "Paul Scholes came through the Academy and played only for United at senior club level.", "source": "official-decades" },
+        { "id": "p07", "question": "Whose penalty did Edwin van der Sar save to win the 2008 Champions League final?", "answers": ["Didier Drogba", "Frank Lampard", "Nicolas Anelka", "Ashley Cole"], "correct": 2, "fact": "Van der Sar saved Nicolas Anelka's sudden-death penalty in Moscow.", "source": "official-decades" },
+        { "id": "p08", "question": "Which United striker was nicknamed the 'Baby-faced Assassin'?", "answers": ["Andy Cole", "Ole Gunnar Solskjaer", "Dwight Yorke", "Teddy Sheringham"], "correct": 1, "fact": "Ole Gunnar Solskjaer's youthful appearance and decisive finishing inspired the nickname.", "source": "official-decades" },
+        { "id": "p09", "question": "From which club did United sign David de Gea in 2011?", "answers": ["Real Madrid", "Sevilla", "Valencia", "Atlético Madrid"], "correct": 3, "fact": "David de Gea joined United from Atlético Madrid in summer 2011.", "source": "official-records" },
+        { "id": "p10", "question": "In which year did Cristiano Ronaldo win his first Ballon d'Or as a United player?", "answers": ["2006", "2007", "2008", "2009"], "correct": 2, "fact": "Ronaldo won the 2008 Ballon d'Or after a brilliant Double-winning season.", "source": "official-decades" }
+      ]
+    },
+    {
+      "id": "matches",
+      "name": "Iconic Matches",
+      "shortName": "MATCHES",
+      "icon": "90",
+      "color": "#f7b500",
+      "questions": [
+        { "id": "m01", "question": "Who did United beat in the 1999 Champions League final?", "answers": ["Juventus", "Bayern Munich", "Barcelona", "Real Madrid"], "correct": 1, "fact": "Two stoppage-time goals turned a 1–0 deficit into a 2–1 win over Bayern Munich.", "source": "official-decades" },
+        { "id": "m02", "question": "Who scored United's winning goal in the 1999 Champions League final?", "answers": ["David Beckham", "Teddy Sheringham", "Ole Gunnar Solskjaer", "Dwight Yorke"], "correct": 2, "fact": "Ole Gunnar Solskjaer prodded home the winner after Teddy Sheringham had equalised.", "source": "official-decades" },
+        { "id": "m03", "question": "At which stadium was the 1999 Champions League final played?", "answers": ["Wembley", "San Siro", "Camp Nou", "Bernabéu"], "correct": 2, "fact": "The Treble was completed at Barcelona's Camp Nou.", "source": "official-decades" },
+        { "id": "m04", "question": "What was the score after extra time in United's 1968 European Cup final win over Benfica?", "answers": ["2–0", "2–1", "3–1", "4–1"], "correct": 3, "fact": "United scored three times in extra time to win 4–1 at Wembley.", "source": "official-history" },
+        { "id": "m05", "question": "Which club did United defeat on penalties in the 2008 Champions League final?", "answers": ["Arsenal", "Liverpool", "Chelsea", "Barcelona"], "correct": 2, "fact": "United beat Chelsea in a dramatic shootout in Moscow.", "source": "official-decades" },
+        { "id": "m06", "question": "Which Italian club did United beat 7–1 at Old Trafford in 2007?", "answers": ["AC Milan", "Roma", "Inter Milan", "Juventus"], "correct": 1, "fact": "United's 7–1 quarter-final second-leg win over Roma is a modern European classic.", "source": "official-decades" },
+        { "id": "m07", "question": "Who scored the famous solo goal against Arsenal in the 1999 FA Cup semi-final replay?", "answers": ["Ryan Giggs", "David Beckham", "Andy Cole", "Roy Keane"], "correct": 0, "fact": "Ryan Giggs slalomed through Arsenal's defence before scoring in extra time.", "source": "official-decades" },
+        { "id": "m08", "question": "Which team did United beat 8–2 in the Premier League in August 2011?", "answers": ["Tottenham Hotspur", "Arsenal", "Chelsea", "Manchester City"], "correct": 1, "fact": "United scored eight against Arsenal at Old Trafford in 2011.", "source": "fan-history" },
+        { "id": "m09", "question": "Who scored the header that sparked United's 1999 Champions League semi-final comeback at Juventus?", "answers": ["Roy Keane", "Jaap Stam", "Dwight Yorke", "Teddy Sheringham"], "correct": 0, "fact": "Captain Roy Keane's header began the comeback from 2–0 down in Turin.", "source": "official-decades" },
+        { "id": "m10", "question": "Who did United beat in the 2016 FA Cup final?", "answers": ["Everton", "Chelsea", "Crystal Palace", "Arsenal"], "correct": 2, "fact": "Jesse Lingard's extra-time goal sealed a 2–1 win over Crystal Palace.", "source": "official-trophies" }
+      ]
+    },
+    {
+      "id": "trophies",
+      "name": "Trophies & Triumphs",
+      "shortName": "TROPHIES",
+      "icon": "♛",
+      "color": "#5dd39e",
+      "questions": [
+        { "id": "t01", "question": "In which year did Manchester United win its first English league title?", "answers": ["1902", "1908", "1910", "1911"], "correct": 1, "fact": "United's first league championship came in 1908.", "source": "official-corporate" },
+        { "id": "t02", "question": "Which three trophies made up United's 1998/99 Treble?", "answers": ["League, FA Cup, Champions League", "League, League Cup, UEFA Cup", "FA Cup, League Cup, Champions League", "League, FA Cup, Cup Winners' Cup"], "correct": 0, "fact": "United won the Premier League, FA Cup and UEFA Champions League in 1998/99.", "source": "official-decades" },
+        { "id": "t03", "question": "United became the first English club to win the European Cup in which year?", "answers": ["1958", "1966", "1968", "1970"], "correct": 2, "fact": "Sir Matt Busby's team lifted the European Cup at Wembley in 1968.", "source": "official-history" },
+        { "id": "t04", "question": "How many Premier League titles did United win under Sir Alex Ferguson?", "answers": ["10", "11", "12", "13"], "correct": 3, "fact": "Sir Alex guided United to 13 Premier League titles.", "source": "official-decades" },
+        { "id": "t05", "question": "Who did United beat in the 2017 League Cup final?", "answers": ["Southampton", "Ajax", "Chelsea", "Tottenham Hotspur"], "correct": 0, "fact": "Zlatan Ibrahimović scored twice in a 3–2 final win over Southampton.", "source": "official-trophies" },
+        { "id": "t06", "question": "Who were United's opponents in the 2017 Europa League final?", "answers": ["Villarreal", "Sevilla", "Ajax", "Benfica"], "correct": 2, "fact": "Goals from Paul Pogba and Henrikh Mkhitaryan beat Ajax 2–0 in Stockholm.", "source": "official-trophies" },
+        { "id": "t07", "question": "Which club did United beat to win the 1991 European Cup Winners' Cup?", "answers": ["Barcelona", "Bayern Munich", "Marseille", "Real Madrid"], "correct": 0, "fact": "Mark Hughes scored both goals in a 2–1 victory over Barcelona.", "source": "official-decades" },
+        { "id": "t08", "question": "Who did United defeat in the 1983 FA Cup final replay?", "answers": ["Everton", "Brighton & Hove Albion", "Liverpool", "Crystal Palace"], "correct": 1, "fact": "After a 2–2 draw, United won the replay 4–0 against Brighton.", "source": "official-trophies" },
+        { "id": "t09", "question": "Who did United beat in the 1990 FA Cup final replay?", "answers": ["Crystal Palace", "Arsenal", "Nottingham Forest", "Chelsea"], "correct": 0, "fact": "Lee Martin scored the only goal of the replay against Crystal Palace.", "source": "official-trophies" },
+        { "id": "t10", "question": "Which club did United beat to win the 2008 FIFA Club World Cup?", "answers": ["Boca Juniors", "LDU Quito", "Santos", "Al Ahly"], "correct": 1, "fact": "Wayne Rooney scored in the 1–0 final victory over LDU Quito.", "source": "official-trophies" }
+      ]
+    },
+    {
+      "id": "managers",
+      "name": "Managers & Eras",
+      "shortName": "MANAGERS",
+      "icon": "◆",
+      "color": "#6c63ff",
+      "questions": [
+        { "id": "g01", "question": "Who is widely acknowledged as Manchester United's first manager?", "answers": ["Ernest Mangnall", "A. H. Albut", "John Bentley", "Jack Robson"], "correct": 0, "fact": "Ernest Mangnall arrived in 1903 and is widely acknowledged as the club's first manager.", "source": "official-decades" },
+        { "id": "g02", "question": "In which year was Sir Matt Busby appointed United manager?", "answers": ["1939", "1945", "1948", "1952"], "correct": 1, "fact": "Sir Matt Busby took charge in 1945 and rebuilt the club after the war.", "source": "official-history" },
+        { "id": "g03", "question": "In which year did Sir Alex Ferguson become United manager?", "answers": ["1984", "1986", "1988", "1990"], "correct": 1, "fact": "Sir Alex Ferguson was appointed in November 1986.", "source": "official-decades" },
+        { "id": "g04", "question": "Who succeeded Sir Alex Ferguson as United manager in 2013?", "answers": ["Louis van Gaal", "José Mourinho", "David Moyes", "Ryan Giggs"], "correct": 2, "fact": "David Moyes succeeded Sir Alex following his retirement in 2013.", "source": "official-decades" },
+        { "id": "g05", "question": "What was the first major trophy Sir Alex Ferguson won with United?", "answers": ["League Cup", "FA Cup", "Premier League", "Cup Winners' Cup"], "correct": 1, "fact": "The 1990 FA Cup was Sir Alex's first major United trophy.", "source": "official-decades" },
+        { "id": "g06", "question": "Who managed United to both the Europa League and League Cup in 2016/17?", "answers": ["David Moyes", "Louis van Gaal", "José Mourinho", "Ole Gunnar Solskjaer"], "correct": 2, "fact": "José Mourinho's first season delivered the League Cup and Europa League.", "source": "official-trophies" },
+        { "id": "g07", "question": "Which manager led United to the 2016 FA Cup?", "answers": ["Louis van Gaal", "José Mourinho", "Ryan Giggs", "David Moyes"], "correct": 0, "fact": "Louis van Gaal's United beat Crystal Palace at Wembley in 2016.", "source": "official-trophies" },
+        { "id": "g08", "question": "In which year was Ole Gunnar Solskjaer appointed permanent United manager?", "answers": ["2018", "2019", "2020", "2021"], "correct": 1, "fact": "Solskjaer became permanent manager in March 2019 after an interim spell.", "source": "fan-history" },
+        { "id": "g09", "question": "Which manager led United to the 1977 FA Cup, denying Liverpool a Treble?", "answers": ["Tommy Docherty", "Dave Sexton", "Frank O'Farrell", "Ron Atkinson"], "correct": 0, "fact": "Tommy Docherty's side beat Liverpool 2–1 at Wembley.", "source": "official-trophies" },
+        { "id": "g10", "question": "Which manager won the FA Cup with United in both 1983 and 1985?", "answers": ["Dave Sexton", "Ron Atkinson", "Tommy Docherty", "Wilf McGuinness"], "correct": 1, "fact": "Ron Atkinson delivered two FA Cups during the 1980s.", "source": "official-trophies" }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "Old Trafford & Origins",
+      "shortName": "OLD TRAFFORD",
+      "icon": "⌂",
+      "color": "#21b8d5",
+      "questions": [
+        { "id": "h01", "question": "In which year was the club founded?", "answers": ["1876", "1878", "1888", "1892"], "correct": 1, "fact": "The club was formed in 1878 by railway workers.", "source": "official-history" },
+        { "id": "h02", "question": "What was Manchester United's original name?", "answers": ["Manchester Central", "Newton Heath LYR", "Salford United", "Lancashire Athletic"], "correct": 1, "fact": "The club began as Newton Heath LYR Football Club.", "source": "official-history" },
+        { "id": "h03", "question": "In which year did Newton Heath become Manchester United?", "answers": ["1898", "1900", "1902", "1908"], "correct": 2, "fact": "The Manchester United name was adopted in 1902.", "source": "official-corporate" },
+        { "id": "h04", "question": "In which year did Old Trafford open?", "answers": ["1902", "1908", "1910", "1914"], "correct": 2, "fact": "Old Trafford opened on 19 February 1910.", "source": "official-corporate" },
+        { "id": "h05", "question": "What is Old Trafford's famous nickname?", "answers": ["The Red Fortress", "The Theatre of Dreams", "The United End", "The Devil's Den"], "correct": 1, "fact": "Sir Bobby Charlton famously described Old Trafford as the Theatre of Dreams.", "source": "official-corporate" },
+        { "id": "h06", "question": "Who were the opponents in the first match played at Old Trafford?", "answers": ["Manchester City", "Arsenal", "Liverpool", "Everton"], "correct": 2, "fact": "Liverpool won a seven-goal thriller 4–3 on Old Trafford's opening day.", "source": "official-history" },
+        { "id": "h07", "question": "In which year was Old Trafford heavily damaged by a wartime bombing raid?", "answers": ["1939", "1941", "1943", "1945"], "correct": 1, "fact": "A German bombing raid heavily damaged Old Trafford on 11 March 1941.", "source": "official-corporate" },
+        { "id": "h08", "question": "At which ground did United play many home games while Old Trafford was rebuilt after the war?", "answers": ["Anfield", "Maine Road", "Burnden Park", "Goodison Park"], "correct": 1, "fact": "United shared Manchester City's Maine Road while Old Trafford was rebuilt.", "source": "official-history" },
+        { "id": "h09", "question": "Which Old Trafford stand was renamed for Sir Alex Ferguson in 2011?", "answers": ["East Stand", "West Stand", "North Stand", "South Stand"], "correct": 2, "fact": "The North Stand became the Sir Alex Ferguson Stand in 2011.", "source": "fan-history" },
+        { "id": "h10", "question": "Old Trafford is located in which metropolitan borough?", "answers": ["Salford", "Trafford", "Tameside", "Stockport"], "correct": 1, "fact": "The stadium sits in Old Trafford, within the borough of Trafford.", "source": "fan-history" }
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "Kit, Crest & Culture",
+      "shortName": "CULTURE",
+      "icon": "♥",
+      "color": "#ff6b93",
+      "questions": [
+        { "id": "c01", "question": "What is Manchester United's best-known nickname?", "answers": ["The Red Devils", "The Red Lions", "The Railwaymen", "The Mancunians"], "correct": 0, "fact": "The Red Devils identity became strongly associated with United under Sir Matt Busby.", "source": "official-history" },
+        { "id": "c02", "question": "What is the name of Manchester United's official mascot?", "answers": ["Bertie Bee", "Fred the Red", "Devil Dan", "Ralph the Red"], "correct": 1, "fact": "Fred the Red is the club's familiar red-devil mascot.", "source": "fan-history" },
+        { "id": "c03", "question": "Which two symbols appear prominently on Manchester United's crest?", "answers": ["A lion and crown", "A ship and red devil", "A bee and football", "A rose and eagle"], "correct": 1, "fact": "The crest combines Manchester's ship symbol with the club's red devil.", "source": "official-history" },
+        { "id": "c04", "question": "Which song title begins United's famous 'Glory, glory' chant?", "answers": ["Glory Glory Man United", "Red Army Forever", "We'll Never Die", "United Calypso"], "correct": 0, "fact": "'Glory Glory Man United' is one of the best-known songs heard around the club.", "source": "fan-history" },
+        { "id": "c05", "question": "What is the traditional colour of United's home shirts?", "answers": ["Green", "White", "Red", "Black"], "correct": 2, "fact": "Red shirts have defined Manchester United's home identity for generations.", "source": "official-history" },
+        { "id": "c06", "question": "Which colours are most associated with the original Newton Heath kits?", "answers": ["Blue and white", "Green and gold", "Red and black", "Claret and blue"], "correct": 1, "fact": "Green and gold are closely linked with the club's Newton Heath roots.", "source": "official-decades" },
+        { "id": "c07", "question": "Where is the United Trinity statue located?", "answers": ["Inside the museum", "Outside Old Trafford", "At Carrington", "In Manchester Town Hall"], "correct": 1, "fact": "The Best-Law-Charlton statue stands outside Old Trafford.", "source": "official-history" },
+        { "id": "c08", "question": "What date is shown on the Munich memorial clock at Old Trafford?", "answers": ["6 February 1958", "19 February 1910", "29 May 1968", "26 May 1999"], "correct": 0, "fact": "The clock memorialises the Munich Air Disaster of 6 February 1958.", "source": "official-history" },
+        { "id": "c09", "question": "What nickname was given to Sir Matt Busby's celebrated young 1950s team?", "answers": ["Fergie's Fledglings", "The Red Army", "The Busby Babes", "The United Trinity"], "correct": 2, "fact": "The Busby Babes were admired for their youth, style and success.", "source": "official-corporate" },
+        { "id": "c10", "question": "Which player was NOT part of United's celebrated Class of '92?", "answers": ["David Beckham", "Paul Scholes", "Nicky Butt", "Wayne Rooney"], "correct": 3, "fact": "Rooney joined United in 2004; Beckham, Scholes and Butt all emerged from the Class of '92.", "source": "official-decades" }
+      ]
+    }
+  ]
+}
